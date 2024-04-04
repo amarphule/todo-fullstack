@@ -1,0 +1,28 @@
+{
+  "name": "todos-fullstack",
+  "version": "1.0.0",
+  "description": "Create fullstack application using expressjs and reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amarphule/todo-fullstack.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "Expressjs",
+    "Zod",
+    "Mongoose"
+  ],
+  "author": "Amar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amarphule/todo-fullstack/issues"
+  },
+  "homepage": "https://github.com/amarphule/todo-fullstack#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

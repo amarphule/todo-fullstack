@@ -1,0 +1,11 @@
+# node_modules# Node.js dependencies
+node_modules/
+
+# npm/yarn logs
+npm-debug.log
+yarn-error.log
+package-lock.json 
+
+# Express.js specific
+.env
+
