@@ -3,15 +3,15 @@ require("dotenv").config();
 const express = require("express");
 const { createTodo, updateTodo } = require("./types");
 const { Todo } = require("./db");
+const cors = require("cors");
 
 const app = express();
 
 app.use(express.json());
-
+app.use(cors());
 app.post("/todo", async function (req, res) {
   const createdpayload = req.body;
   const parsedpayload = createTodo.safeParse(createdpayload);
-  console.log(parsedpayload);
   if (!parsedpayload.success) {
     res.status(411).json({
       message: "You sent wrong inputs",
