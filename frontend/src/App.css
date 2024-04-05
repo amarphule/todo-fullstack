@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 40rem;
+  margin: 10px;
+  padding: 10px;
+}
+.btn {
+  width: 20rem;
+  padding: 10px;
+}
+
+.todo_container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.todo {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
